@@ -10,6 +10,15 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap">
+    <style>
+      body {
+          font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+      footer{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+  </style>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 </head>
@@ -17,10 +26,11 @@
   <nav class="flex items-center justify-between flex-wrap bg-red-500 p-6 sticky top-0 z-50">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
         <img src="assets/img/logo_putih.jpg" class="h-8 rounded-lg" alt="">
+        <span class="lg:hidden ml-2 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">PT SAP Enterprise</span>
     </div>
     <div class="block lg:hidden">
         <button id="navToggle" class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title class="text-white">Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
         </button>
     </div>
     <div id="navMenu" class="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block">
@@ -58,7 +68,7 @@
 
     <div id="controls-carousel" class="relative w-full" data-carousel="static">
       <!-- Carousel wrapper -->
-      <div class="relative h-56 overflow-hidden rounded-lg md:h-96 my-12 mx-3">
+      <div class="relative h-56 overflow-hidden rounded-lg md:h-72 mx-3">
           <!-- Item 1 -->
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="grid lg:grid-cols-4 grid-cols-1 gap-4">
@@ -150,7 +160,7 @@
 
   <div id="controls-carousel" class="relative w-full" data-carousel="static">
     <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96 my-12 mx-3">
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-72 mx-3">
         <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <div class="grid lg:grid-cols-4 grid-cols-1 gap-4">
@@ -242,7 +252,7 @@
 
 <div id="controls-carousel" class="relative w-full" data-carousel="static">
   <!-- Carousel wrapper -->
-  <div class="relative h-56 overflow-hidden rounded-lg md:h-96 my-12 mx-3">
+  <div class="relative h-56 overflow-hidden rounded-lg md:h-72 mx-3">
       <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <div class="grid lg:grid-cols-4 grid-cols-1 gap-4">
@@ -332,7 +342,7 @@
 
 <div id="controls-carousel" class="relative w-full" data-carousel="static">
   <!-- Carousel wrapper -->
-  <div class="relative h-56 overflow-hidden rounded-lg md:h-96 my-12 mx-3">
+  <div class="relative h-56 overflow-hidden rounded-lg md:h-72 mx-3">
       <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <div class="grid lg:grid-cols-4 grid-cols-1 gap-4">
@@ -425,7 +435,7 @@
   
   <div id="default-carousel" class="w-full container mx-auto mb-8" data-carousel="slide">
     <!-- Carousel wrapper -->
-    <div class="relative h-48 md:h-72 lg:h-96 overflow-hidden rounded-lg lg:my-12 mx-3">
+    <div class="relative h-48 md:h-48 overflow-hidden rounded-lg mx-3">
       <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <div class="grid lg:grid-cols-8 grid-cols-4 gap-2 lg:gap-4"> 
@@ -456,7 +466,6 @@
   </div>
 </section>
 
-
 <footer class="bg-red-500 text-white p-6 lg:p-12">
   <div class="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-12">
     <div class="flex flex-col items-center">
@@ -478,10 +487,11 @@
         </div>
       </div>
       <ul class="text-md text-center lg:text-left">
-        <li>(+62) 822 8388 0353 - Rizal</li>
-        <li>(+62) 823 6618 1893 - Khairi</li>
-        <li>office@sap-enterprise.com</li>
-        <li>www.sap-enterprise.com</li>
+        <li><a href="https://wa.me/6282268105632?text=Hello%2C%20I%20am%20interested%20in%20your%20MICE%20services.%20Can%20you%20provide%20more%20details%20about%20your%20events%20and%20conferences%3F" target="_blank" rel="nofollow noopener" title="Send chat to Admin"><i class="bi bi-whatsapp"></i> (+62) 822 6810 5632 - SAP Enterprise</a></li>
+        <li><a href="https://wa.me/6282283880353?text=Hello%2C%20I%20am%20interested%20in%20your%20MICE%20services.%20Can%20you%20provide%20more%20details%20about%20your%20events%20and%20conferences%3F" target="_blank" rel="nofollow noopener" title="Send chat to Rizal"><i class="bi bi-whatsapp"></i> (+62) 822 8388 0353 - Rizal</a></li>
+        <li><a href="https://wa.me/6282366181893?text=Hello%2C%20I%20am%20interested%20in%20your%20MICE%20services.%20Can%20you%20provide%20more%20details%20about%20your%20events%20and%20conferences%3F" target="_blank" rel="nofollow noopener" title="Send chat to Khairi"></a><i class="bi bi-whatsapp"></i> (+62) 823 6618 1893 - Khairi</li>
+        <li><a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=office@sap-enterprise.com" target="_blank" rel="nofollow noopener" title="Send email with Gmail"><i class="bi bi-envelope"></i> office@sap-enterprise.com</a></li>
+        <li><a href="#"><i class="bi bi-globe2"></i> www.sap-enterprise.com</a></li>
       </ul>
     </div>
     <div class="col-span-1 lg:col-span-3 text-center mt-4 lg:mt-0">
